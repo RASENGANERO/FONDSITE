@@ -7673,6 +7673,9 @@ div._5Ws4:before {
 ._1jfiN {
     display: flex;
     align-items: center;
+    width: 366px;
+    justify-content: space-between;
+    margin-left: 7%;
 }
 ._1_uFy {
     border-bottom: 1px solid hsla(0, 0%, 87.5%, 0.2);
@@ -8283,14 +8286,7 @@ div._5Ws4:before {
     }
 }
 @media screen and (max-width: 1919px) and (min-width: 1600px) {
-    ._152tu {
-        top: 0;
-        right: 208px;
-        position: relative;
-        width: 160px;
-        max-width: 160px;
-        flex: 0 0 160px;
-    }
+    
     ._3ly8g {
         width: 294.14px;
         height: 63.79px;

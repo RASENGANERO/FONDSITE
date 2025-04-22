@@ -69,12 +69,10 @@ function hide_projects(event){
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
-    if(document.getElementsByClassName('main-slider-next').length!=0){
-        let s1 = document.getElementsByClassName('main-slider-next')[0];
-        s1.addEventListener('click',next_slide);
-        let s2 = document.getElementsByClassName('main-slider-prev')[0];
-        s2.addEventListener('click',prev_slide);
-    }
+    setInterval(function(){
+        next_slide();
+    }, 3000);
+    
     if(document.getElementsByClassName('url-children').length!=0){
         let childrens = document.getElementsByClassName('url-children');
         for(let i=0;i<childrens.length;i++) {

@@ -60,9 +60,36 @@
     flex-direction: row;
     justify-content: space-between;
 }
-footer{
-    margin-top: 5%;
-}
+
 ._3LI1T{
     padding-bottom: 0px !important;
+}
+.hide-main-slider{
+    display: none;
+}
+.hide-section{
+    display: none;
+}
+.contacts-inform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.contact-inform-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    justify-content: flex-start;
+    margin-top: 43px;
+}
+.contact-inform-foot>span{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contact-inform-foot>a{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
