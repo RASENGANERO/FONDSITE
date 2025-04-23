@@ -76,20 +76,43 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 12px;
+    margin-top: 45px;
 }
 .contact-inform-foot{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 17px;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 43px;
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    padding: 20px;
+}
+.contacts-color{
+    color: #298345;
+    font-family: "sang-bleu", sans-serif;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 64px;
+    margin-top: 0px;
+}
+#contacts{
+    margin-bottom: 65px;
 }
 .contact-inform-foot>span{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 .contact-inform-foot>a{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.color-ured{
+    color:#298345;
+    text-align: center;
+}
+.contact-footers{
+    margin-bottom: 47px;
 }

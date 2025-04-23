@@ -69,10 +69,10 @@ function hide_projects(event){
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
-    setInterval(function(){
+    /*setInterval(function(){
         next_slide();
     }, 3000);
-    
+    */
     if(document.getElementsByClassName('url-children').length!=0){
         let childrens = document.getElementsByClassName('url-children');
         for(let i=0;i<childrens.length;i++) {
